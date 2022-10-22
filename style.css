@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #cb202d;
+}
+
+.name {
+    font-size: 70px;
+    color: azure;
+    font-style: italic;
+    text-align: center;
+    margin-top: 225px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width:600px) {
+    .name {
+        font-size: 35px;
+        margin-top: 300px;
+        margin-right: 50px;
+    }
+}
